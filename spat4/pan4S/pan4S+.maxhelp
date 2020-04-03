@@ -2184,8 +2184,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 59.0, 380.0, 33.0 ],
-					"presentation_linecount" : 2,
-					"text" : "The \"pan4S\" abstraction pans the input signal among 4 speakers using the buffer~ \"#0pan4\"."
+					"text" : "The \"pan4S\" abstraction pans the input signal among 4 speakers using the buffer~ \"#0pan4\". Angle is measured from 0. to 1."
 				}
 
 			}
