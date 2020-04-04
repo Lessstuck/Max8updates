@@ -39,21 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Lato",
-					"fontsize" : 11.595186999999999,
-					"id" : "obj-28",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 570.5, 233.0, 122.0, 36.0 ],
-					"text" : "buffer~ #0pan4 @samps 512"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Lato",
 					"fontsize" : 11.595186999999999,
@@ -107,7 +92,7 @@
 				"box" : 				{
 					"comment" : "MC Signal Out",
 					"id" : "obj-36",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -145,7 +130,7 @@
 				"box" : 				{
 					"comment" : "Patcherargs  Attribute Messages",
 					"id" : "obj-43",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1517,7 +1502,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 705.0, 181.0, 239.0, 259.0 ],
+										"rect" : [ 146.0, 207.0, 230.0, 259.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -2127,7 +2112,7 @@
 				"box" : 				{
 					"comment" : "RightRear Signal Out",
 					"id" : "obj-21",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2139,7 +2124,7 @@
 				"box" : 				{
 					"comment" : "LeftRear Signal Out",
 					"id" : "obj-20",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2151,7 +2136,7 @@
 				"box" : 				{
 					"comment" : "Right Signal Out",
 					"id" : "obj-19",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2163,7 +2148,7 @@
 				"box" : 				{
 					"comment" : "Left Signal Out",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2237,7 +2222,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 424.883667000000003, 233.0, 122.0, 22.0 ],
-					"text" : "cycle~ #0pan4"
+					"text" : "cycle~"
 				}
 
 			}
@@ -2251,7 +2236,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 296.703094000000021, 233.0, 122.0, 22.0 ],
-					"text" : "cycle~ #0pan4"
+					"text" : "cycle~"
 				}
 
 			}
@@ -2265,7 +2250,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 168.522522000000009, 233.0, 122.0, 22.0 ],
-					"text" : "cycle~ #0pan4"
+					"text" : "cycle~"
 				}
 
 			}
@@ -2279,7 +2264,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 46.0, 233.0, 122.0, 22.0 ],
-					"text" : "cycle~ #0pan4"
+					"text" : "cycle~"
 				}
 
 			}
@@ -2356,11 +2341,11 @@
 				"box" : 				{
 					"comment" : "Signal In",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.191879, 16.0, 25.0, 25.0 ]
 				}
 
@@ -2382,11 +2367,11 @@
 				"box" : 				{
 					"comment" : "Signal In",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 16.0, 25.0, 25.0 ]
 				}
 
@@ -2668,6 +2653,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ]
 	}
 
