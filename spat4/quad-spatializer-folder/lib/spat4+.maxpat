@@ -3583,7 +3583,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 350.035055333333389, 506.483863999999812, 58.0, 20.0 ],
 					"text" : "mc.gen~",
-					"wrapper_uniquekey" : "u264008407"
+					"wrapper_uniquekey" : "u583004914"
 				}
 
 			}
@@ -4725,7 +4725,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 619.0, 118.345031999999946, 105.0, 22.0 ],
-					"text" : "zmap 0. 1. 1. 32."
+					"text" : "zmap 0. 1. 1. 16."
 				}
 
 			}
@@ -4847,24 +4847,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
-					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
-					"source" : [ "obj-103", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
-					"destination" : [ "obj-78", 0 ],
-					"order" : 0,
-					"source" : [ "obj-103", 0 ]
 				}
 
 			}
@@ -5279,6 +5261,25 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
+					"order" : 2,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.986246049404144, 0.007120788097382, 0.027434188872576, 1.0 ],
+					"destination" : [ "obj-78", 0 ],
+					"order" : 0,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -5371,7 +5372,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "pan4S+.maxpat",
 				"bootpath" : "~/Documents/GitHub/Max8updates/spat4/pan4S",
-				"patcherrelativepath" : "../../pan4S",
+				"patcherrelativepath" : "../../Documents/GitHub/Max8updates/spat4/pan4S",
 				"type" : "JSON",
 				"implicit" : 1
 			}
