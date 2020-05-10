@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1560.0, 277.0, 823.0, 404.0 ],
+		"rect" : [ 216.0, 220.0, 823.0, 404.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595186999999999,
@@ -92,7 +92,7 @@
 				"box" : 				{
 					"comment" : "MC Signal Out",
 					"id" : "obj-36",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -130,7 +130,7 @@
 				"box" : 				{
 					"comment" : "Patcherargs  Attribute Messages",
 					"id" : "obj-43",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2113,7 +2113,7 @@
 				"box" : 				{
 					"comment" : "RightRear Signal Out",
 					"id" : "obj-21",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2125,7 +2125,7 @@
 				"box" : 				{
 					"comment" : "LeftRear Signal Out",
 					"id" : "obj-20",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2137,7 +2137,7 @@
 				"box" : 				{
 					"comment" : "Right Signal Out",
 					"id" : "obj-19",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2149,7 +2149,7 @@
 				"box" : 				{
 					"comment" : "Left Signal Out",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2342,11 +2342,11 @@
 				"box" : 				{
 					"comment" : "Signal In",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.191879, 16.0, 25.0, 25.0 ]
 				}
 
@@ -2368,11 +2368,11 @@
 				"box" : 				{
 					"comment" : "Signal In",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 16.0, 25.0, 25.0 ]
 				}
 
@@ -2654,6 +2654,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ]
 	}
 

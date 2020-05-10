@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 97.0, 1056.0, 585.0 ],
+		"rect" : [ 55.0, 97.0, 1054.0, 585.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -115,7 +115,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "multichannelsignal" ],
-					"patching_rect" : [ 39.0, 464.5, 61.0, 22.0 ],
+					"patching_rect" : [ 39.0, 506.5, 61.0, 22.0 ],
 					"text" : "spat4+"
 				}
 
@@ -178,34 +178,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Lato",
-					"fontsize" : 12.0,
-					"id" : "obj-38",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 516.16666666666606, 96.348096348096362, 98.0, 21.0 ],
-					"text" : "center far, slowly"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Lato",
-					"fontsize" : 12.0,
-					"id" : "obj-45",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 516.16666666666606, 70.0, 110.0, 21.0 ],
-					"text" : "center near, slowly"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Lato",
 					"fontsize" : 12.0,
 					"id" : "obj-63",
@@ -252,7 +224,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "multichannelsignal" ],
-					"patching_rect" : [ 39.0, 499.0, 219.0, 22.0 ],
+					"patching_rect" : [ 39.0, 541.0, 219.0, 22.0 ],
 					"text" : "spat4+ @center 0 @curve tan @doppler 1"
 				}
 
@@ -560,19 +532,7 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 725.5, 40.0, 150.0, 18.0 ],
-					"text" : "<azimuth> <distance> <time>"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
-					"bubblepoint" : 0.0,
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -580,7 +540,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 908.0, 49.5, 85.0, 40.0 ],
+					"patching_rect" : [ 725.5, 15.0, 85.0, 40.0 ],
 					"text" : "Move sound."
 				}
 
@@ -856,11 +816,28 @@
 					"fontface" : 0,
 					"fontname" : "Lato",
 					"fontsize" : 12.0,
+					"id" : "obj-32",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 27.0, 225.5, 420.0, 93.0 ],
+					"presentation_linecount" : 6,
+					"text" : "With no @curve attribute, panning uses a square-root function, which is compatible with previous versions. \"@curve sin\" uses a more common panning function. Both are equal-power, so there's no \"hole in the middle\". \"@curve tan\" uses the function in the original paper, which–as it turns out–is not equal-power. It's included for historical purposes. In 1971, the difficulty of hearing the results of signal processing resulted in this oversight."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 0,
+					"fontname" : "Lato",
+					"fontsize" : 12.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 499.0, 101.0, 21.0 ],
+					"patching_rect" : [ 269.0, 541.0, 101.0, 21.0 ],
 					"text" : "The 1971 version"
 				}
 
@@ -875,7 +852,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 464.5, 190.0, 21.0 ],
+					"patching_rect" : [ 109.0, 506.5, 190.0, 21.0 ],
 					"text" : "The backwards compatible version"
 				}
 
@@ -894,7 +871,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 995.0, 49.5, 20.0, 20.0 ],
+					"patching_rect" : [ 812.5, 19.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -935,7 +912,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 369.0, 420.0, 50.0 ],
+					"patching_rect" : [ 27.0, 448.0, 420.0, 50.0 ],
 					"text" : "There is an optional delay, which enables the Doppler effect. The scale parameter represents the physical distance to the speakers in meters, which scales the Doppler effect."
 				}
 
@@ -947,12 +924,12 @@
 					"fontname" : "Lato",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 140.0, 420.0, 93.0 ],
-					"text" : "Azimuth is measured clockwise from 0. to 1. Azimuth values greater than 1 will result in multiple revolutions. With no @center attribute, the abstraction remains compatible with earlier versions of spat4, so that 0 is the front left speaker. By setting @center to 0, center is located directly in front of the listener. Similarly, with no @curve attribute, panning uses a square-root function, which is compatible with previous versions."
+					"patching_rect" : [ 27.0, 140.0, 420.0, 78.0 ],
+					"text" : "Azimuth is measured clockwise from 0. to 1. Azimuth values greater than 1 will result in multiple revolutions. With no @center attribute, the abstraction remains compatible with earlier versions of spat4, so that 0 is the front left speaker. By setting @center to 0, center is located directly in front of the listener. "
 				}
 
 			}
@@ -985,7 +962,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 617.999999999999545, 536.0, 20.0, 20.0 ],
+					"patching_rect" : [ 617.999999999999545, 535.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1004,7 +981,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 309.0, 423.0, 50.0 ],
+					"patching_rect" : [ 27.0, 393.0, 423.0, 50.0 ],
 					"text" : "Time is in milliseconds. Note that once the trajectory message arrives, all further calculations are carried out in the signal domain, so that imaging is  maintained even with very fast movements."
 				}
 
@@ -1020,7 +997,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 239.0, 420.0, 64.0 ],
+					"patching_rect" : [ 27.0, 323.0, 420.0, 64.0 ],
 					"text" : "Distance goes from 0 to 1, (which is mapped internally to 1. to 16). A distance parameter of 0 represents the physical distance from the center of the room to the speakers. A distance of 1 represents the maximum virtual distance, by default 16 times the distance to the speakers."
 				}
 
