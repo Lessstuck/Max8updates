@@ -2100,7 +2100,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "multichannelsignal" ],
 					"patching_rect" : [ 26.0, 402.0, 215.0, 22.0 ],
-					"text" : "pan4S+ @center 0."
+					"text" : "pan4S @center 0."
 				}
 
 			}
@@ -2523,8 +2523,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "pan4S+.maxpat",
-				"bootpath" : "~/Documents/GitHub/Max8updates/spat4/pan4S",
+				"name" : "pan4S.maxpat",
+				"bootpath" : "~/Desktop/quadPanningSubmission",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
