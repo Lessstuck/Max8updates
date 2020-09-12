@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 119.0, 105.0, 543.0, 622.0 ],
+						"rect" : [ 0.0, 26.0, 543.0, 622.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -122,7 +122,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 346.499999999999545, 85.5, 40.0, 22.0 ],
-									"text" : "*~ 0.2"
+									"text" : "*~ 0.4"
 								}
 
 							}
@@ -134,7 +134,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 283.5, 85.5, 40.0, 22.0 ],
-									"text" : "*~ 0.2"
+									"text" : "*~ 0.4"
 								}
 
 							}
@@ -259,7 +259,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 41.0, 347.5, 121.0, 22.0 ],
-													"text" : "0.088904 0.471699"
+													"text" : "0.142612 0.128062"
 												}
 
 											}
@@ -2811,8 +2811,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 346.499999999999545, 52.0, 57.0, 23.0 ],
-									"text" : "cycle~ 2"
+									"patching_rect" : [ 346.499999999999545, 52.0, 67.0, 23.0 ],
+									"text" : "cycle~ 0.5"
 								}
 
 							}
@@ -2826,7 +2826,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 283.5, 52.0, 57.0, 23.0 ],
-									"text" : "cycle~ 4"
+									"text" : "cycle~ 1"
 								}
 
 							}
@@ -4261,7 +4261,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 181.0, 41.5, 65.0, 20.0 ],
+									"patching_rect" : [ 164.0, 41.5, 65.0, 20.0 ],
 									"text" : "Submixes"
 								}
 
@@ -4949,8 +4949,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 260.0, 172.0, 258.500000000000227, 35.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 260.0, 172.0, 259.0, 35.0 ],
 									"text" : "Default reverb settings are already pretty good. Experiment with moving the sound source first."
 								}
 
@@ -8015,7 +8014,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 543.0, 622.0 ],
+						"rect" : [ 119.0, 105.0, 543.0, 622.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
