@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 131.0, 80.0, 917.0, 739.0 ],
+		"rect" : [ 131.0, 80.0, 922.0, 723.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 727.308121000000028, 46.0, 171.691878999999972, 34.0 ],
+					"patching_rect" : [ 743.308121000000028, 7.0, 171.691878999999972, 34.0 ],
 					"text" : "mc signals (0. - 1.) are added to line~s for azimuth and distance."
 				}
 
@@ -177,7 +177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.940792333333206, 535.805153000000018, 118.0, 18.0 ],
+					"patching_rect" : [ 705.940792333333206, 488.805153000000018, 118.0, 18.0 ],
 					"text" : "Thanks to Manuel Poletti"
 				}
 
@@ -2009,7 +2009,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.940792333333206, 681.657034999999951, 302.0, 30.0 ],
+					"patching_rect" : [ 530.940792333333206, 634.657034999999951, 302.0, 30.0 ],
 					"text" : "Jon Dattorro. Effect Design Part 1: Reverberator and Other Filters  https://ccrma.stanford.edu/~dattorro/EffectDesignPart1.pdf"
 				}
 
@@ -4764,7 +4764,7 @@
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 376.717504500000018, 535.805153000000018, 58.0, 20.0 ],
 					"text" : "mc.gen~",
-					"wrapper_uniquekey" : "u537009617"
+					"wrapper_uniquekey" : "u243009145"
 				}
 
 			}
@@ -4868,7 +4868,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.940792333333206, 515.159103000000073, 110.0, 18.0 ],
+					"patching_rect" : [ 705.940792333333206, 468.159103000000073, 110.0, 18.0 ],
 					"text" : "Reverb by Jon Dattorro"
 				}
 
@@ -4904,7 +4904,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.940792333333206, 495.159103000000073, 132.0, 18.0 ],
+					"patching_rect" : [ 705.940792333333206, 448.159103000000073, 132.0, 18.0 ],
 					"text" : "Les Stuck & John Chowning "
 				}
 
@@ -4917,7 +4917,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.940792333333206, 647.657034999999951, 265.0, 30.0 ],
+					"patching_rect" : [ 530.940792333333206, 596.657034999999951, 265.0, 30.0 ],
 					"text" : "J. M. Chowning. The Simulation of Moving Sound Sources. J. Audio Eng. Soc.19, 2-6, 1971"
 				}
 
@@ -5976,7 +5976,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.940792333333206, 555.797531000000049, 302.0, 78.0 ],
+					"patching_rect" : [ 530.940792333333206, 511.797531000000049, 302.0, 78.0 ],
 					"text" : "Chowning’s approach is unique in that it combines a global reverb that decreases as the object moves farther away, with a panned reverb that increases, with the result that the sound remains localized even as it recedes.  This approach has stood the test of time, making it a great choice for concert hall spatialization today, even after a half century of development in spatialization practice."
 				}
 
@@ -6545,7 +6545,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "pan4S.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
