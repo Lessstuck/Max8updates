@@ -1,7 +1,7 @@
 /*
 	returns colors from maxinterface.json
 
-	Cycling '74 - ej
+	Cycling '74 - ej (& ls)
 */
 
 const OUTLET_RGBA = 0;
@@ -33,21 +33,13 @@ function anything()
 
 function getcolorlist()
 {
-	outlet(1, "clear");
-	var d = new Dict();
-	d.import_json("maxinterface.json");
-	var colors = d.get("interface").get("colors");
-	for (var j = 0; j < colors.length; j++)	{
-		var id = colors[j].get('id');
-		outlet(1, "append", id);
-	}
-}
-
-function search(nameKey, myArray) {
-	for (var i = 0; i < myArray.length; i++) {
-		if (myArray[i].name == nameKey) {
-			return myArray[i];
-		}
+	outlet(1, "clear");  // clear umenu
+	var interfaceDict = new Dict();
+	interfaceDict.import_json("maxinterface.json");  // import json file into dictionary
+	var colors = interfaceDict.get("interface").get("colors"); // bind to colors array
+	for (var i = 0; i < colors.length; i++) {
+		var id = colors[i].get("id");
+		outlet(1, "append", id);  // add item to umenu
 	}
 }
 

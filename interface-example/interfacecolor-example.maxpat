@@ -132,14 +132,14 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js interfacecolor.js toolbar_background_active"
+					"text" : "js interfacecolor.js wolfsburg"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
+					"bgcolor" : [ 0.933333, 0.686275, 0.647059, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -169,7 +169,7 @@
 					"fontname" : "Lato",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : "<empty>",
+					"items" : [ "alignmentguide", ",", "assistance_background", ",", "assistance_text", ",", "audiocolor", ",", "basic", ",", "box_selection_background", ",", "browser_background", ",", "buttoned_up", ",", "calendar_activity", ",", "calendar_menu_header", ",", "calendar_stripe2", ",", "calendar_success", ",", "caption_background", ",", "clue_system_background", ",", "clue_text", ",", "clue_user_background", ",", "colorpopup_bright_background", ",", "colorpopup_bright_selected", ",", "colortab1", ",", "colortab10", ",", "colortab2", ",", "colortab3", ",", "colortab4", ",", "colortab5", ",", "colortab6", ",", "colortab7", ",", "colortab8", ",", "colortab9", ",", "comment_outline", ",", "darkweb", ",", "dirtygreen", ",", "electricblue", ",", "favicolor", ",", "formatpalette_background", ",", "formatpalette_disabledtext", ",", "formatpalette_inherited", ",", "formatpalette_inherited_background", ",", "formatpalette_inherited_on", ",", "formatpalette_renamer_background", ",", "iceice", ",", "inspector_background", ",", "inspector_disabled_text", ",", "inspector_header_background", ",", "inspector_headerline", ",", "inspector_menuheader", ",", "inspector_selectedrow", ",", "inspector_selection", ",", "inspector_tab", ",", "inspector_texteditor_background", ",", "jed_background", ",", "jed_cpp_preprocessor", ",", "jed_defaulttext", ",", "jed_expr_bracket", ",", "jed_expr_comment", ",", "jed_expr_corefunction", ",", "jed_expr_error", ",", "jed_expr_float", ",", "jed_expr_identifier", ",", "jed_expr_integer", ",", "jed_expr_keyword", ",", "jed_expr_namedconstant", ",", "jed_expr_operator", ",", "jed_expr_preprocessor", ",", "jed_expr_punctuation", ",", "jed_expr_string", ",", "jed_expr_userfunction", ",", "jed_hilite", ",", "jed_js_bracket", ",", "jed_js_comment", ",", "jed_js_corefunction", ",", "jed_js_error", ",", "jed_js_float", ",", "jed_js_identifier", ",", "jed_js_integer", ",", "jed_js_keyword", ",", "jed_js_maxfunction", ",", "jed_js_operator", ",", "jed_js_punctuation", ",", "jed_js_string", ",", "jed_linenumber_text", ",", "lesson_button_background", ",", "lesson_downloading", ",", "lesson_inprogress", ",", "lesson_play", ",", "lesson_range", ",", "lesson_remote", ",", "lesson_started", ",", "lesson_step_border", ",", "lesson_step_bottomgradient", ",", "lesson_step_circle", ",", "lesson_step_titlebar", ",", "lesson_step_topgradient", ",", "lesson_text_hilite", ",", "lesson_todo", ",", "lessonbrowser_row1_background", ",", "lessonbrowser_row2_background", ",", "live_key_assignment", ",", "live_midi_assignment", ",", "lively", ",", "local_audiocolor", ",", "maxwindow_bugtext", ",", "maxwindow_errorbackground", ",", "maxwindow_errorbackground2", ",", "maxwindow_errortext", ",", "maxwindow_postobject", ",", "maxwindow_postobject_hilite", ",", "maxwindow_posttext", ",", "maxwindow_selection_background", ",", "maxwindow_successtext", ",", "maxwindow_warningbackground1", ",", "maxwindow_warningbackground2", ",", "maxwindow_warningtext", ",", "menu_background", ",", "menu_disabled_text", ",", "menu_headertext", ",", "menu_highlighted_background", ",", "menu_highlighted_text", ",", "menu_text", ",", "mute_on", ",", "number_one", ",", "object_bogus_color", ",", "objectfiles_header", ",", "objectified", ",", "objectprototypes_header", ",", "parchment", ",", "parchment_dull", ",", "parchmentbright", ",", "patcher_active_tab", ",", "patcher_box_selection", ",", "patcher_circle_fill", ",", "patcher_circle_outline", ",", "patcher_cool_inlet", ",", "patcher_hot_inlet", ",", "patcher_inactive_tab", ",", "patcher_io_connected_inside", ",", "patcher_io_connected_outside", ",", "patcher_io_unconnected", ",", "patcher_outlet", ",", "patcher_tab_bottom_line", ",", "patcher_tab_text_active", ",", "patcher_tab_text_inactive", ",", "patcher_tab_top_line", ",", "patcher_tinge_hilite", ",", "patcher_tinge_object", ",", "patcherbrowser_results_background", ",", "patcherbrowser_results_darkrowbg", ",", "patcherbrowser_results_lightrowbg", ",", "patcherbrowser_results_selected", ",", "patcherbrowser_results_textcolor", ",", "patchline_badge_break", ",", "patchline_badge_disabled", ",", "patchline_badge_monitor", ",", "patchline_badge_post", ",", "pattrstorage_active", ",", "plugintoolbar_background", ",", "plugintoolbar_header_background", ",", "presentation_frame", ",", "projectwindow_background", ",", "projectwindow_divider", ",", "quickref_attribute_header", ",", "quickref_message_header", ",", "refbar_details_background", ",", "refbar_details_linkcolor", ",", "refbar_stripe2", ",", "scrollbar_fading_mouseover", ",", "scrollbar_fading_nonmouseover", ",", "scrollbar_nonfading_mouseover", ",", "scrollbar_nonfading_nonmouseover", ",", "sidebarblues", ",", "sliderweb", ",", "solo_on", ",", "standardappletexthilite", ",", "text_editingcolor", ",", "toolbar_active_unique", ",", "toolbar_background_active", ",", "toolbar_background_inactive", ",", "toolbar_background_inactive_old", ",", "toolbar_badge", ",", "toolbar_disabled_active", ",", "toolbar_disabled_inactive", ",", "toolbar_disabled_inactive_old", ",", "toolbar_divider_active", ",", "toolbar_divider_inactive", ",", "toolbar_enabled_modified", ",", "toolbar_enabled_off", ",", "toolbar_enabled_on", ",", "toolbar_overlay_background", ",", "toolbar_searchbar_background", ",", "toolbar_searchbar_emptytext", ",", "toolbar_searchbar_hilite", ",", "toolbar_searchbar_text", ",", "transform_header", ",", "transport_green", ",", "urgentmessage", ",", "verylively", ",", "wolfsburg", ",", "yellowpin" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -342,7 +342,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "interfacecolor.js",
-				"bootpath" : "~/Desktop/Current Projects/dictmix",
+				"bootpath" : "~/Documents/GitHub/Max8updates/interface-example",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
